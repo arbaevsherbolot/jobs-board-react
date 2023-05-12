@@ -1,0 +1,25 @@
+.container {
+  width: 100vw;
+  padding: 2rem 10%;
+
+  margin-bottom: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #111c27;
+
+  .links {
+    display: flex;
+    gap: 2rem;
+
+    .link {
+      color: #fff;
+
+      &:hover {
+        color: #eee;
+      }
+    }
+  }
+}

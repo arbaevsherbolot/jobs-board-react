@@ -1,0 +1,62 @@
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #677f88;
+  margin: 0.8rem;
+}
+
+.container {
+  display: grid;
+  position: relative;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+
+  .buttons {
+    position: absolute;
+    bottom: -15%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    .prev,
+    .next {
+      padding: 0.5rem 2rem;
+
+      border: none;
+
+      background-color: #121a25;
+      color: #fff;
+
+      border-radius: 2rem;
+    }
+
+    .prev {
+      left: -2rem;
+    }
+  }
+
+  .employee {
+    padding: 1rem;
+    margin: 0.5rem;
+
+    background: #ddf3ff;
+
+    border-radius: 0.333rem;
+
+    p {
+      line-height: 1.3;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #121e24;
+
+      &:last-child {
+        font-weight: 500;
+        color: #677f88;
+      }
+
+      span {
+        font-weight: 500;
+      }
+    }
+  }
+}

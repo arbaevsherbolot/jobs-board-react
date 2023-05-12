@@ -1,0 +1,14 @@
+.container {
+  width: 100vw;
+
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .title {
+    font-size: 1.1rem;
+    color: #374856;
+  }
+}
